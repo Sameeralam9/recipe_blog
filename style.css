@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+  color: hsl(30, 10%, 34%);
+}
+body {
+  background-color: #f3e5d8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+.outer {
+  background-color: white;
+  padding: 50px;
+  margin: 120px;
+  border-radius: 15px;
+}
+.inner {
+  width: 650px;
+}
+.titleHolder h1 {
+  font-family: "Young Serif", sans-serif;
+  font-weight: 100;
+  font-size: 2.5rem;
+  color: hsl(24, 5%, 18%);
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+.titleHolder p {
+  line-height: 25px;
+  padding-bottom: 20px;
+}
+img {
+  width: 650px;
+  border-radius: 15px;
+}
+.prepare {
+  padding: 25px;
+  border-radius: 10px;
+  background-color: hsl(330, 100%, 98%);
+}
+#prep {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+}
+.liholder {
+  padding: 0 40px;
+}
+.prepare div li {
+  font-size: 16px;
+  padding: 8px;
+}
+.txt {
+  color: #854632;
+  font-family: "Young Serif", sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
+}
+.ingridiant Div {
+  padding: 10px 20px 30px 20px;
+}
+.ingridiant {
+  padding-top: 20px;
+}
+.ingridiant Div li {
+  padding: 7px;
+}
+hr {
+  opacity: 0.3;
+}
+.instructions {
+  padding: 20px 0 30px 0;
+}
+.instructions div {
+  padding: 10px 20px 0 20px;
+}
+.instructions div li {
+  padding: 8px;
+  line-height: 25px;
+}
+.nutrition {
+  padding-top: 20px;
+}
+.nutrition p {
+  padding: 20px 0;
+}
+.nutrition div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  padding: 10px 50px;
+}
+.cal {
+  color: #854632;
+  font-weight: bold;
+  width: 50px;
+}
